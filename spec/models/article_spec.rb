@@ -8,11 +8,13 @@ RSpec.describe Article, type: :model do
   end
 
   let_it_be(:user) { create(:user) }
-  let!(:article) { create(:article, user: user) }
+  let(:article) { create(:article, user: user) }
 
   include_examples "#sync_reactions_count", :article
 
   describe "validations" do
+    before { article }
+
     it { is_expected.to validate_uniqueness_of(:canonical_url).allow_blank }
     it { is_expected.to validate_uniqueness_of(:slug).scoped_to(:user_id) }
     it { is_expected.to validate_uniqueness_of(:feed_source_url).allow_blank }
@@ -507,6 +509,8 @@ RSpec.describe Article, type: :model do
   end
 
   describe "#has_frontmatter?" do
+    let!(:article) { create(:article, user: user) }
+
     it "returns true if the article has a frontmatter" do
       body = "---\ntitle: Hellohnnnn#{rand(1000)}\npublished: true\ntags: hiring\n---\n\nHello"
       article.body_markdown = body
@@ -782,6 +786,8 @@ RSpec.describe Article, type: :model do
     end
 
     describe "slack messages" do
+      let!(:article) { create(:article, user: user) }
+
       before do
         # making sure there are no other enqueued jobs from other tests
         sidekiq_perform_enqueued_jobs(only: Slack::Messengers::Worker)
@@ -820,6 +826,7 @@ RSpec.describe Article, type: :model do
 
   describe ".feed" do
     it "returns records with a subset of attributes" do
+      article
       feed_article = described_class.feed.first
 
       fields = %w[id tag_list published_at processed_html user_id organization_id title path cached_tag_list]
