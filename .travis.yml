@@ -80,6 +80,8 @@ jobs:
   include:
     - stage: Deploy
       script: skip
+      services: skip
+      addons: skip
       deploy:
         provider: heroku
         api_key: '$HEROKU_AUTH_TOKEN'
