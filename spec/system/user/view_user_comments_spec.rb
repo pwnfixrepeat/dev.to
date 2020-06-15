@@ -7,7 +7,12 @@ RSpec.describe "User comments", type: :system do
   let!(:comment2) { create(:comment, user: user, commentable: create(:article)) }
 
   context "when user is unauthorized" do
-    before { visit "/user3000/comments" }
+    before do
+      puts article.title
+      puts comment.commentable.attributes
+      puts comment2.commentable.attributes
+      visit "/user3000/comments"
+    end
 
     it "does not show user's articles" do
       within("#substories") do
