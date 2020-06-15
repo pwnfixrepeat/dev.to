@@ -9,8 +9,10 @@ RSpec.describe "User comments", type: :system do
   context "when user is unauthorized" do
     before do
       puts article.title
-      puts comment.commentable.attributes
-      puts comment2.commentable.attributes
+      puts article.id
+      puts comment.attributes
+      puts comment2.attributes
+      puts user.comments.count
       visit "/user3000/comments"
     end
 
