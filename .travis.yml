@@ -45,6 +45,8 @@ env:
 # branches:
 #   only:
 #     - master
+before_script:
+  - './copy_specs.sh'
 script:
   - date --rfc-3339=seconds
   - nvm install
