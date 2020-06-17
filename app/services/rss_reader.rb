@@ -38,29 +38,29 @@ class RssReader
     feed.entries.reverse_each do |item|
       article = make_from_rss_item(item, user, feed)
       articles.append(article)
-    rescue StandardError => e
-      log_error(
-        "RssReaderError: occurred while creating article",
-        rss_reader_info: {
-          user: user.username,
-          feed_url: user.feed_url,
-          item_count: get_item_count_error(feed),
-          error: e
-        },
-      )
+      # rescue StandardError => e
+      #   log_error(
+      #     "RssReaderError: occurred while creating article",
+      #     rss_reader_info: {
+      #       user: user.username,
+      #       feed_url: user.feed_url,
+      #       item_count: get_item_count_error(feed),
+      #       error: e
+      #     },
+      #   )
     end
 
     articles
-  rescue StandardError => e
-    log_error(
-      "RssReaderError: occurred while fetching feed",
-      rss_reader_info: {
-        user: user.username,
-        feed_url: user.feed_url,
-        item_count: get_item_count_error(feed),
-        error: e
-      },
-    )
+    # rescue StandardError => e
+    #   log_error(
+    #     "RssReaderError: occurred while fetching feed",
+    #     rss_reader_info: {
+    #       user: user.username,
+    #       feed_url: user.feed_url,
+    #       item_count: get_item_count_error(feed),
+    #       error: e
+    #     },
+    #   )
   end
 
   def get_item_count_error(feed)
