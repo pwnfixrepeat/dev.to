@@ -14,10 +14,15 @@ ports:
   - port: 9300
     onOpen: ignore
 tasks:
+  - before: >
+     nvm install 12.16.3 --reinstall-packages-from=node;
+     nvm alias default 12.16.3;
+     nvm use 12.16.3
   - command: redis-server
   - command: /home/gitpod/elasticsearch-7.5.2/bin/elasticsearch
   - init: cp config/sample_application.yml config/application.yml
     command: >
+      nvm use 12.16.3;
       gem install solargraph;
       bin/setup &&
       bin/startup
