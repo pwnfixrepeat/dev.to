@@ -128,15 +128,6 @@ RSpec.configure do |config|
     SiteConfig.clear_cache
   end
 
-  # Only turn on VCR if :vcr is included metadata keys
-  config.around do |ex|
-    if ex.metadata.key?(:vcr)
-      ex.run
-    else
-      VCR.turned_off { ex.run }
-    end
-  end
-
   config.before do
     stub_request(:any, /res.cloudinary.com/).to_rack("dsdsdsds")
 
