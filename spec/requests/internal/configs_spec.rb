@@ -37,6 +37,9 @@ RSpec.describe "/internal/config", type: :request do
     context "when admin has full permissions including single resource" do
       before do
         sign_in(admin_plus_config)
+        puts "*"*100
+        puts admin_plus_config.id
+        puts admin_plus_config.roles.pluck(:name, :resource_id, :resource_type)
       end
 
       describe "API tokens" do
