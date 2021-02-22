@@ -2927,18 +2927,18 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@testing-library/cypress@^7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@testing-library/cypress/-/cypress-7.0.3.tgz#1f4bcf992d0a0ff55da13b80f6f785c976ef9c0d"
-  integrity sha512-JOYW4VSSyHxaZDUhrS5N7tZA8jhr3ISx73WnLPpNkPqDCLUIJpo8ZQihti68Q4Qv5hVuA+I2rUI2glORaEFPaA==
+"@testing-library/cypress@^7.0.4":
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@testing-library/cypress/-/cypress-7.0.4.tgz#38a55880712f222ddb9671bc899fe80f8c41bfc0"
+  integrity sha512-5I1amLVB2ExIRWuHlvG35dVFVC2KiNBZ0U1ASJUJZASFPQ0BhqJG4s0B8B8wNAE7TrR8KWlrzcNutkgxXL6VOg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^7.28.1"
 
-"@testing-library/dom@^7.16.2", "@testing-library/dom@^7.28.1", "@testing-library/dom@^7.29.4":
-  version "7.29.4"
-  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.29.4.tgz#1647c2b478789621ead7a50614ad81ab5ae5b86c"
-  integrity sha512-CtrJRiSYEfbtNGtEsd78mk1n1v2TUbeABlNIcOCJdDfkN5/JTOwQEbbQpoSRxGqzcWPgStMvJ4mNolSuBRv1NA==
+"@testing-library/dom@^7.16.2", "@testing-library/dom@^7.28.1", "@testing-library/dom@^7.29.6":
+  version "7.29.6"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.29.6.tgz#eb37844fb431186db7960a7ff6749ea65a19617c"
+  integrity sha512-vzTsAXa439ptdvav/4lsKRcGpAQX7b6wBIqia7+iNzqGJ5zjswApxA6jDAsexrc6ue9krWcbh8o+LYkBXW+GCQ==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
@@ -2975,10 +2975,10 @@
   dependencies:
     "@testing-library/dom" "^7.16.2"
 
-"@testing-library/user-event@^12.7.1":
-  version "12.7.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-12.7.1.tgz#e1ce931c04a1c65faf28618442d56ba8da887f2c"
-  integrity sha512-COfCkYgcxc+P9+pEAIGlmBuIDjO91Chf9GOBHI8AhIiMyaoOrKVPQny1uf0HIAYNoHKL5slhkqOPP2ZyNaVQGw==
+"@testing-library/user-event@^12.7.2":
+  version "12.7.2"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-12.7.2.tgz#78749eadc8324009b428bdb8d7edc64b63c3e86c"
+  integrity sha512-6uUYor7b0+JAcanK0rmCEZGo6t0n2F4WUKXL9toQg495a9YE2MHlJ8GWzfCgsUPyVHw8SNaMN8UrZoHABf+oOg==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
@@ -18040,10 +18040,10 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-svgo@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/svgo/-/svgo-2.0.2.tgz#26a23ff4aca66a0fb3c765b7cc8500db4603700b"
-  integrity sha512-MKNtsLk1gVZ2V+/1SbbLhO9dGnkF5rkbbnHDcmtTYsOMuBlnCkQySBWJc3hF2WMZH850Spq17Ucih9bOml+Jlg==
+svgo@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/svgo/-/svgo-2.0.3.tgz#09bcc7f32e140d017a38c6dfe953b937232bb2cf"
+  integrity sha512-q6YtEaLXkPN1ARaifoENYPPweAbBV8YoqWg+8DFQ3xsImfyRIdBbr42Cqz4NZwCftmVJjh+m1rEK7ItRdLTxdg==
   dependencies:
     chalk "^4.1.0"
     commander "^7.1.0"
