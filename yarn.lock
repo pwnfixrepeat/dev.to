@@ -3030,10 +3030,10 @@
   dependencies:
     "@testing-library/dom" "^7.16.2"
 
-"@testing-library/user-event@^12.8.3":
-  version "12.8.3"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-12.8.3.tgz#1aa3ed4b9f79340a1e1836bc7f57c501e838704a"
-  integrity sha512-IR0iWbFkgd56Bu5ZI/ej8yQwrkCv8Qydx6RzwbKz9faXazR/+5tvYKsZQgyXJiwgpcva127YO6JcWy7YlCfofQ==
+"@testing-library/user-event@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-13.0.0.tgz#c39451b9c11ec2ef7ae0743dfda96decba1f3c56"
+  integrity sha512-At8SFGsb6kLgXU6NYU/IJGiKWULTklu8FlqTtaxvR9emnGDYlVhQ1xxjchpOifh1Ao6SjKu5vgDc7ioiUfw5oQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
@@ -6888,10 +6888,10 @@ css-loader@^3.5.3:
     schema-utils "^2.7.0"
     semver "^6.3.0"
 
-css-loader@^5.1.2:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-5.1.2.tgz#b93dba498ec948b543b49d4fab5017205d4f5c3e"
-  integrity sha512-T7vTXHSx0KrVEg/xjcl7G01RcVXpcw4OELwDPvkr7izQNny85A84dK3dqrczuEfBcu7Yg7mdTjJLSTibRUoRZg==
+css-loader@^5.1.3:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-5.1.3.tgz#87f6fc96816b20debe3cf682f85c7e56a963d0d1"
+  integrity sha512-CoPZvyh8sLiGARK3gqczpfdedbM74klGWurF2CsNZ2lhNaXdLIUks+3Mfax3WBeRuHoglU+m7KG/+7gY6G4aag==
   dependencies:
     camelcase "^6.2.0"
     cssesc "^3.0.0"
@@ -7151,10 +7151,10 @@ cypress-file-upload@^5.0.2:
   dependencies:
     mime "^2.5.0"
 
-cypress@^6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-6.6.0.tgz#659c64cdb06e51b6be18fdac39d8f192deb54fa0"
-  integrity sha512-+Xx3Zn653LJHUsCb9h1Keql2jlazbr1ROmbY6DFJMmXKLgXP4ez9cE403W93JNGRbZK0Tng3R/oP8mvd9XAPVg==
+cypress@^6.7.1:
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-6.7.1.tgz#6b8e1ba9badbded284ddc8575873b64211250ea6"
+  integrity sha512-MC9yt1GqpL4WVDQ0STI89K+PdLeC3T3NuAb2N61d6vYGR9pJy8w3Fqe0OWZwaRTJtg9eAyHXPGmFsyKeNQ3tmg==
   dependencies:
     "@cypress/listr-verbose-renderer" "^0.4.1"
     "@cypress/request" "^2.88.5"
@@ -10267,10 +10267,10 @@ husky@^4.3.8:
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
 
-ibm-openapi-validator@0.35.2:
-  version "0.35.2"
-  resolved "https://registry.yarnpkg.com/ibm-openapi-validator/-/ibm-openapi-validator-0.35.2.tgz#20c53fcb91885befe8ae8fc1223721654850699c"
-  integrity sha512-MMqsFA8OEKPs9xW5lOfKqiBe6SiWVMDtPJylAgR0kxa0scJ0pwan1bqrm0xPWULnJaByLmmZpBM7cMJ3cQ7Wfw==
+ibm-openapi-validator@0.36.0:
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/ibm-openapi-validator/-/ibm-openapi-validator-0.36.0.tgz#1cc21597e486b35f67fecdab7c609121a6c91c10"
+  integrity sha512-w1BdCELJaBaW5NP2eMYSTkchy8nDHfFe7DIgaCP+NOVRkqYc2XTEhTWW95sVubliv2A3iaOY81a+V6L1lqmFDQ==
   dependencies:
     "@stoplight/spectral" "^5.8.1"
     chalk "^4.1.0"
@@ -15337,10 +15337,10 @@ preact-textarea-autosize@^4.0.7:
   resolved "https://registry.yarnpkg.com/preact-textarea-autosize/-/preact-textarea-autosize-4.0.7.tgz#aa654ce1a0ed57027dca21e4710a78cb6f007457"
   integrity sha1-qmVM4aDtVwJ9yiHkcQp4y28AdFc=
 
-preact@^10.5.12:
-  version "10.5.12"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.5.12.tgz#6a8ee8bf40a695c505df9abebacd924e4dd37704"
-  integrity sha512-r6siDkuD36oszwlCkcqDJCAKBQxGoeEGytw2DGMD5A/GGdu5Tymw+N2OBXwvOLxg6d1FeY8MgMV3cc5aVQo4Cg==
+preact@^10.5.13:
+  version "10.5.13"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.5.13.tgz#85f6c9197ecd736ce8e3bec044d08fd1330fa019"
+  integrity sha512-q/vlKIGNwzTLu+jCcvywgGrt+H/1P/oIRSD6mV4ln3hmlC+Aa34C7yfPI4+5bzW8pONyVXYS7SvXosy2dKKtWQ==
 
 precond@0.2:
   version "0.2.3"
