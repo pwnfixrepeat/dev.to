@@ -38,7 +38,7 @@ gem "field_test", "~> 0.4" # A/B testing
 gem "flipper", "~> 0.20.4" # Feature flipping / flags for Ruby
 gem "flipper-active_record", "~> 0.20.4" # Store Flipper flags in ActiveRecord
 gem "flipper-ui", "~> 0.20.4"
-gem "fog-aws", "~> 3.9" # 'fog' gem to support Amazon Web Services
+gem "fog-aws", "~> 3.10" # 'fog' gem to support Amazon Web Services
 gem "front_matter_parser", "~> 1.0" # Parse a front matter from syntactically correct strings or files
 gem "gemoji", "~> 4.0.0.rc2" # Character information and metadata for standard and custom emoji
 gem "gibbon", "~> 3.4" # API wrapper for MailChimp's API
@@ -70,7 +70,7 @@ gem "pg", "~> 1.2" # Pg is the Ruby interface to the PostgreSQL RDBMS
 gem "pg_search", "~> 2.3.5" # PgSearch builds Active Record named scopes that take advantage of PostgreSQL's full text search
 gem "puma", "~> 5.2.2" # Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server
 gem "pundit", "~> 2.1" # Object oriented authorization for Rails applications
-gem "pusher", "~> 1.4" # Ruby library for Pusher Channels HTTP API
+gem "pusher", "~> 2.0" # Ruby library for Pusher Channels HTTP API
 gem "pusher-push-notifications", "~> 2.0" # Pusher Push Notifications Ruby server SDK
 gem "rack-attack", "~> 6.5.0" # Used to throttle requests to prevent brute force attacks
 gem "rack-cors", "~> 1.1" # Middleware that will make Rack-based apps CORS compatible
