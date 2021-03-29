@@ -4,7 +4,7 @@
   "description": "Where programmers share ideas and help each other grow",
   "engines": {
     "yarn": ">=1.21.x",
-    "node": "14.14.x"
+    "node": "14.x"
   },
   "main": "index.js",
   "directories": {
@@ -141,7 +141,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@babel/core": "^7.13.13",
+    "@babel/core": "^7.13.14",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-react-jsx": "^7.13.12",
@@ -149,7 +149,7 @@
     "@github/clipboard-copy-element": "^1.1.2",
     "@honeybadger-io/webpack": "^1.2.0",
     "@rails/webpacker": "5.2.1",
-    "@reach/combobox": "^0.13.2",
+    "@reach/combobox": "^0.14.0",
     "ahoy.js": "^0.3.8",
     "autoprefixer": "^10.2.5",
     "babel-preset-preact": "^2.0.0",
